@@ -29,7 +29,7 @@ footer {
     background-color: rgb(236, 236, 236);
 }
 
-.pic, #welcome img {
+.pic, #welcome img, .icon {
     border-radius: 100px;
     width: 100px;
     height: 100px;
@@ -39,4 +39,13 @@ footer {
 #welcome img {
     width: 150px;
     height: 150px;
+}
+
+#my-projects img {
+    max-width: 650px;
+}
+
+.icon, #search-icon, #not-icon {
+    width: 25px;
+    height: 25px;
 }
