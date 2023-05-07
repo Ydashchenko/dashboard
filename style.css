@@ -29,9 +29,14 @@ footer {
     background-color: rgb(236, 236, 236);
 }
 
-.pic {
-    border-radius: 50px;
+.pic, #welcome img {
+    border-radius: 100px;
     width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+#welcome img {
+    width: 150px;
+    height: 150px;
 }
