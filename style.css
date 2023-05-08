@@ -4,9 +4,6 @@ body {
     margin: 0;
 }
 
-img {
-
-}
 
 #top {
     display: grid;
@@ -48,4 +45,10 @@ footer {
 .icon, #search-icon, #not-icon {
     width: 25px;
     height: 25px;
+}
+
+aside img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
 }
