@@ -3,40 +3,39 @@ body {
     display: grid;
     grid-template-columns: auto 80%;
     margin: 0;
+    background-color: rgb(236, 236, 236);
 }
 
 
 #top {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
 }
 
 aside {
     background-color: rgb(255, 157, 0);
 }
 
+#actions a {
+    background-color: rgb(255, 157, 0);
+    border-radius: 100px;
+    padding: 10px 30px;
+}
+
 li {
     list-style-type: none;
 }
 
-section {
-    background-color: rgb(236, 236, 236);
-}
-
-footer {
-    background-color: rgb(236, 236, 236);
-}
-
 .pic, #welcome img, .icon {
-    border-radius: 100px;
-    width: 100px;
-    height: 100px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
 }
 
 #welcome img {
-    width: 150px;
-    height: 150px;
+    width: 90px;
+    height: 90px;
 }
 
 #my-projects img {
@@ -49,12 +48,10 @@ footer {
 }
 
 aside img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     object-fit: cover;
 }
-
-
 
 #logo, li {
     display: flex;
@@ -71,7 +68,7 @@ li {
 }
 
 ul {
-    padding: 10px;
+    padding: 0px;
     
 }
 
@@ -87,4 +84,69 @@ h1 {
 
 li p {
     font-size: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+    padding-right: 100px;
+}
+
+input {
+    height: 30px;
+    border: 0px;
+    background-color: rgb(219, 216, 216);
+    border-radius: 100px;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+#account {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+main {
+    padding: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 10px 30px;
+}
+
+#bottom {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+#welcome {
+    display: flex;
+    gap: 20px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+#actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr auto;
 }
