@@ -1,7 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: grid;
-    grid-template-columns: auto 80%;
+    grid-template-columns: auto 1fr;
     margin: 0;
     background-color: rgb(236, 236, 236);
 }
@@ -78,6 +83,10 @@ ul {
     padding-right: 35px;
 }
 
+#logo, nav {
+    margin-bottom: 40px;
+}
+
 h1 {
     font-size: 30px;
 }
@@ -128,7 +137,7 @@ header {
 #welcome {
     display: flex;
     gap: 20px;
-
+    align-items: center;
 }
 
 a {
@@ -148,5 +157,81 @@ a:visited {
 
 section {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 3fr 1fr;
+    padding: 0px 20px;
+    gap: 20px;
+    
 }
+
+.project {
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    display: grid;
+    gap: 20px;
+    border: 1px solid black;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    justify-self: end;
+}
+
+.screen {
+    border-radius: 25px;
+    width: 100%;
+}
+
+#an-content, #tr-content {
+    background-color: white;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.aside-acc {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#tr-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.aside-acc p, .aside-acc h4 {
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#greeting {
+    display: grid;
+    gap: 15px;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#an-content {
+    display: grid;
+    gap: 20px;
+}
+
+#an-content div {
+    border-bottom: solid 1px gray;
+}
+
+#an-content p {
+    color: gray;
+}
+
