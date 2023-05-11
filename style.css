@@ -170,6 +170,13 @@ section {
     display: grid;
     gap: 20px;
     border: 1px solid black;
+    
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
 }
 
 .links {
@@ -235,3 +242,6 @@ h6 {
     color: gray;
 }
 
+h5 {
+    font-size: 25px;
+}
