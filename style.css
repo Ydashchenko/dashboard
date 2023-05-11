@@ -104,6 +104,11 @@ form {
     padding-right: 100px;
 }
 
+input:focus {
+    outline: none;
+    border: 2px black solid;
+}
+
 input {
     height: 30px;
     border: 0px;
