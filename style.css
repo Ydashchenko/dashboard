@@ -40,6 +40,7 @@ li {
 
 #welcome img {
     width: 90px;
+    min-width: 90px;
     height: 90px;
 }
 
@@ -262,4 +263,8 @@ footer {
 #dashboard li:hover {
     transform: scale(1.1);
     text-decoration: underline black;
+}
+
+.pic {
+    min-width: 50px;
 }
